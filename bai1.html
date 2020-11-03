@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 5;
+    let b = 8;
+    function ptb1(a, b) {
+        if (a == 0) {
+            if (b != 0) {
+                return "pt vo nghiem";
+            }
+            if (b == 0) {
+                return "pt co vo so nghiem";
+            }
+        }
+        if (a != 0) {
+            return "pt co nghiem la x = " + (-b / a);
+        }
+    }
+    document.write(ptb1(a, b));
+</script>
+</body>
+</html>
